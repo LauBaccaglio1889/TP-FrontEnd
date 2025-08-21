@@ -453,3 +453,57 @@ p{
   color: #0050ce;
   border: 1px solid #0050c3;
 }
+
+
+
+.seccion-preguntas{
+   display: flex;
+   background-color: white;
+   color: black;
+   justify-content: center;
+   align-items: center;
+   gap: 40px;
+   padding-top: 50px;
+
+}
+
+.contenedor-texto{
+   color: #171e43;
+   margin-right: 100px;
+   font-family: sans-serif;
+   display: flex;
+   height: 600px;
+   width: 380px;
+   justify-content: center;
+   align-items:flex-start;
+   font-size: 20px;
+}
+
+.acordeon{
+   
+   font-family: sans-serif;
+   margin-bottom: 10px;
+   width: 700px;
+}
+
+.acordeon-item{
+   display: flex;
+   justify-content: space-between;
+   border-bottom: 1px solid rgb(175, 175, 175);
+   margin-bottom: 30px;
+   color: #171e43;
+}
+
+.d-flex{
+   height: 30px;
+   margin-top: 20px;
+   margin-left: 15px;
+}
+
+.site-footer{
+   display: flex;
+   justify-content: space-around;
+    align-items: center;
+    font-family: sans-serif;
+   }
+
