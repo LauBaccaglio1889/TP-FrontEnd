@@ -43,7 +43,15 @@
     border-radius: 25px;
     background-color: white;
     color: #0059d1;
+    transition: all 0.3s ease;
  }
+
+  .boton-primario a:hover{
+      background-color: #0055cc;
+      color: white;
+      border: 1px solid white;
+  }
+
 
 
 
@@ -223,6 +231,12 @@ p{
    padding: 10px 20px;
    display: inline-block; 
    margin-top: 20px;
+   transition: all 0.3s ease;
+}
+.lista a:hover{
+   background-color: white;
+  color: #0055cc;
+  border: 1px solid #0055cc;
 }
 
 
